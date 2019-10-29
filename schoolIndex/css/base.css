@@ -1,0 +1,191 @@
+﻿@charset "UTF-8";
+/* Scss Document */
+/***************
+TsingStone Info&Art Design Studio
+the Academy of Arts & Design, Tsinghua University
+Author:Jason Woo 
+***************/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, figure, figcaption, code, del, dfn, em, button, q, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, tf, tr, th {
+  border: 0px;
+  padding: 0px;
+  font-size: 100%;
+  margin: 0px;
+  font-family: inherit;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: 100%;
+  font-weight: normal;
+  word-break: break-word; }
+
+body {
+  background: #E7EAEA;
+  color: #222;
+  line-height: 1.6em;
+  font-size: 12px;
+  font-family: "微软雅黑", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", PingHei, STHeiti;
+  margin: 0px auto;
+  max-width: 2560px;
+  overflow-x: hidden; }
+
+input[type="text"], input[type="password"], textarea, select {
+  font-family: "微软雅黑", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", PingHei, STHeiti;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  outline: none;
+  padding: 0;
+  -webkit-appearance: none;
+  border-radius: 0; }
+
+img {
+  border: 0px;
+  vertical-align: bottom;
+  -ms-interpolation-mode: bicubic; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+a:hover {
+  text-decoration: none;
+  color: #d18e59; }
+
+ul, li {
+  list-style-type: none; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+  height: 0px;
+  visibility: hidden; }
+
+.relative {
+  position: relative; }
+
+.clearfix {
+  *display: table;
+  *zoom: 1; }
+
+.clear {
+  clear: both;
+  overflow: hidden;
+  height: 0; }
+
+*::selection {
+  background: #5C307D;
+  color: #FFFFFF;
+  text-shadow: none; }
+
+*::-moz-selection {
+  background: #5C307D;
+  color: #FFFFFF;
+  text-shadow: none; }
+
+.mainWrap {
+  width: 1400px;
+  margin: auto; }
+
+.ie6 {
+  text-align: center;
+  font-size: 16px;
+  background: #FC6;
+  line-height: 100px;
+  z-index: 100000;
+  width: 100%;
+  position: absolute;
+  height: 100px;
+  top: 0;
+  left: 0; }
+
+.ie6 span {
+  float: right;
+  margin-right: 30px;
+  cursor: pointer; }
+
+.masklayer {
+  background: rgba(0, 0, 0, 0.9);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 999;
+  display: none; }
+
+/*motion*/
+.motion {
+  transition: all .2s ease-out; }
+
+.motion_1 {
+  transition: all 0.5s ease-out; }
+
+.pager {
+  clear: both;
+  margin: 25px 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center; }
+
+.pager a {
+  background: none;
+  border: 1px solid #aaa;
+  color: #461B6E;
+  display: inline-block;
+  line-height: 32px;
+  margin: 0 2px;
+  padding: 0 10px;
+  height: 32px;
+  border-radius: 3px;
+  vertical-align: middle; }
+
+.pager b {
+  background: none;
+  color: #461B6E;
+  display: inline-block;
+  line-height: 32px;
+  margin: 0 2px;
+  padding: 0 10px;
+  height: 32px;
+  vertical-align: middle; }
+
+.pager a:hover, .pager a.current {
+  background-color: #461B6E;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 34px;
+  height: 34px;
+  padding: 0 11px; }
+
+.pager .p {
+  font-size: 22px; }
+
+.pager input {
+  height: 32px;
+  line-height: 32px;
+  width: 30px;
+  text-align: center;
+  background: none;
+  border: 1px solid #aaa;
+  vertical-align: middle;
+  border-radius: 3px;
+  margin: 0 5px; }
+
+.pager span {
+  padding: 0  0 0 20px;
+  color: #777; }
+
+/*comm section header footer*/
+.header .smenu {
+  display: none; }
+
+@media screen and (max-width: 1400px) {
+  .mainWrap {
+    width: auto;
+    margin: 0 25px; } }
